@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e2a105c6c6b3ec04d90465874b44b6e3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Pawn: {fileID: 21300000, guid: 56c162a848498964a9982fc1c87d4cf4, type: 3}
+  - Rook: {fileID: 21300000, guid: 66bc028dfaae6294aab355140902e9eb, type: 3}
+  - Bishop: {fileID: 21300000, guid: 4c182516e4f9066408660b363d5ef4a5, type: 3}
+  - Knight: {fileID: 21300000, guid: 435e44daae0d71e4691a41871b5545ff, type: 3}
+  - Queen: {fileID: 21300000, guid: b489c61951eb3014591fac3d4a0d4787, type: 3}
+  - King: {fileID: 21300000, guid: 435336e74281cb14b97d9c49d8d698ca, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
