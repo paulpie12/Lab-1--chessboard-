@@ -11,7 +11,6 @@ public class revolution : MonoBehaviour
 
     void Update()
     {
-        float Distance;
 
         Vector3 dir = Center.position - transform.position;
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
