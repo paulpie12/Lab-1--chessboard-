@@ -342,8 +342,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 888aa94a35ad33940ad11f60d2f687ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Center: {fileID: 1209863913}
-  Enemy: {fileID: 0}
+  centerObject: {fileID: 1209863913}
+  distance: 5
+  revolutionSpeed: 50
 --- !u!212 &1743650499
 SpriteRenderer:
   m_ObjectHideFlags: 0
