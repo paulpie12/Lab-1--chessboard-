@@ -7,9 +7,9 @@ public class RevolveAroundObject : MonoBehaviour
 
     public float distance = 5f;
 
-    public float revolutionSpeed = 50f;
+    float revolutionSpeed = 10f;
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (centerObject == null)
         {
@@ -17,7 +17,7 @@ public class RevolveAroundObject : MonoBehaviour
             return;
         }
 
-        float angle = revolutionSpeed * Time.deltaTime;
+        float angle = (revolutionSpeed / distance);
 
         transform.RotateAround(centerObject.position, Vector3.forward, angle);
 
