@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.R) && gameOver)
         {
-            SceneManager.LoadScene("Week5Lab");
+            SceneManager.LoadScene("week5");
         }
 
         if (meteorCount == 5)
