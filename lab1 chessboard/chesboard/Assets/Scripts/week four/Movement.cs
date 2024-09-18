@@ -5,16 +5,20 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float speed = 1;
+    public float speed = 3;
+
+    float hInput;
+
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.A))
+        if (hInput != Input.GetAxisRaw("Horizontal")) 
         {
-            transform.Translate(Vector3.left * speed);
+            hInput = Input.GetAxisRaw("Horizontal");
         }
-        if (Input.GetKeyDown(KeyCode.D))
+
+        if (Input.GetButton("Horizontal")) 
         {
-            transform.Translate(Vector3.right * speed);
+            transform.position += Vector3.right * speed * hInput * Time.deltaTime;
         }
     }
 }
